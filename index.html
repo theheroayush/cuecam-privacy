@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CueCam — Privacy Policy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-midnight: #0A0C16;
+            --bg-card: #131728;
+            --border: #232946;
+            --accent-blue: #4F7BFF;
+            --accent-violet: #7C3AED;
+            --text-cloud: #F8FAFC;
+            --text-slate: #94A3B8;
+            --text-muted: #64748B;
+            --badge-green: #10B981;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-midnight);
+            color: var(--text-cloud);
+            line-height: 1.65;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+        }
+        .header {
+            background: linear-gradient(135deg, rgba(79, 123, 255, 0.12), rgba(124, 58, 237, 0.12));
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 36px 32px;
+            margin-bottom: 36px;
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--badge-green);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 14px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+        }
+        .meta {
+            color: var(--text-slate);
+            font-size: 14px;
+        }
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 36px;
+        }
+        h2 {
+            font-size: 21px;
+            font-weight: 700;
+            color: var(--text-cloud);
+            margin: 32px 0 14px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        h2:first-of-type { margin-top: 0; }
+        p {
+            color: #CBD5E1;
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+        li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            color: #CBD5E1;
+            font-size: 15px;
+        }
+        li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-blue);
+            font-weight: 700;
+        }
+        strong { color: #FFFFFF; }
+        .highlight-box {
+            background: rgba(79, 123, 255, 0.08);
+            border-left: 4px solid var(--accent-blue);
+            padding: 16px 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 24px 0;
+            color: #E2E8F0;
+            font-size: 14px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="badge">100% OFFLINE &amp; PRIVACY-FIRST</div>
+            <h1>CueCam Privacy Policy</h1>
+            <div class="meta">Effective Date: October 11, 2026 &bull; Application: CueCam — Teleprompter &amp; Video (my.cuecam.app)</div>
+        </div>
+
+        <div class="content">
+            <h2>Overview</h2>
+            <p><strong>CueCam — Teleprompter &amp; Video</strong> ("CueCam", "we", "us", or "our") is built with a strict, uncompromising <strong>privacy-first, offline-first architecture</strong>.</p>
+            <p>CueCam is <strong>100% free</strong>, operates <strong>completely offline</strong>, contains <strong>zero advertisements</strong>, includes <strong>zero tracking or analytics SDKs</strong>, requires <strong>no user accounts</strong>, and has <strong>zero external cloud servers or databases</strong>.</p>
+
+            <div class="highlight-box">
+                <strong>Our Privacy Guarantee:</strong> CueCam does not declare or use the Android Internet permission (<code>android.permission.INTERNET</code>). The application is technically incapable of sending, uploading, or transmitting any of your scripts, videos, or personal data to anyone over the internet.
+            </div>
+
+            <h2>1. Zero Data Collection &amp; Zero Network Transmissions</h2>
+            <ul>
+                <li><strong>No Network Transmissions:</strong> CueCam has no internet connectivity. All processing runs entirely on your device's local hardware.</li>
+                <li><strong>No Analytics or Tracking:</strong> We do not embed Firebase Analytics, Mixpanel, AppsFlyer, Sentry, Crashlytics, or any telemetry SDKs.</li>
+                <li><strong>No Advertisements:</strong> CueCam contains zero ad networks (no Google AdMob, Unity, AppLovin, etc.).</li>
+                <li><strong>No User Accounts:</strong> You never need to sign in, provide an email address, or create a profile.</li>
+            </ul>
+
+            <h2>2. On-Device Local Data Storage</h2>
+            <p>All content created in CueCam stays strictly on your physical phone:</p>
+            <ul>
+                <li><strong>Scripts &amp; Speaker Notes:</strong> Stored locally in a secure on-device SQLite database.</li>
+                <li><strong>User Preferences:</strong> Stored locally in Android app preferences (scroll velocity, font sizing, WPM pace, prompter width).</li>
+                <li><strong>Video Recordings:</strong> Recorded video takes and audio tracks are saved solely to your device's internal storage or your device's local photo gallery upon your explicit export.</li>
+                <li><strong>Prompter Script Absolution:</strong> Your scrolling script is a real-time on-screen HUD and is <strong>never</strong> recorded, burned, or stamped into your exported MP4 video files.</li>
+            </ul>
+
+            <h2>3. Device Permissions &amp; Purpose</h2>
+            <p>CueCam requests only the minimum device permissions essential for teleprompter recording:</p>
+            <ul>
+                <li><strong>Camera (<code>android.permission.CAMERA</code>):</strong> Used exclusively to show the live camera preview and record vertical videos while you read your script. Never runs in the background.</li>
+                <li><strong>Microphone (<code>android.permission.RECORD_AUDIO</code>):</strong> Used solely to capture your voice with synchronized audio during an active recording. Never records in the background.</li>
+                <li><strong>Screen Wake Lock (<code>android.permission.WAKE_LOCK</code>):</strong> Keeps your display on while you are actively speaking or rehearsing your script.</li>
+                <li><strong>Media Storage (<code>READ_MEDIA_VIDEO</code>):</strong> Allows you to browse, play back, review, and export your completed video takes to your local gallery album.</li>
+            </ul>
+
+            <h2>4. Third-Party Sharing</h2>
+            <p>We do not sell, rent, trade, share, or disclose any user data to third parties under any circumstances, because we never collect or possess your data in the first place.</p>
+
+            <h2>5. Data Retention &amp; Deletion</h2>
+            <p>Because all data resides strictly on your physical phone, you have 100% control over deleting individual scripts, speaker notes, and video takes within the app at any time. Uninstalling CueCam or clearing app storage in Android Settings immediately and permanently erases all local application data.</p>
+
+            <h2>6. Children's Privacy</h2>
+            <p>CueCam does not collect any personal information from any user, including children under the age of 13.</p>
+
+            <h2>7. Contact Information</h2>
+            <p>If you have any questions or feedback regarding this Privacy Policy or CueCam, you can reach out to:</p>
+            <p><strong>Email:</strong> support@cuecam.app<br><strong>Package ID:</strong> my.cuecam.app</p>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 CueCam. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
