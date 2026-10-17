@@ -158,7 +158,7 @@
                 <li><strong>Camera (<code>android.permission.CAMERA</code>):</strong> Used exclusively to show the live camera preview and record vertical videos while you read your script. Never runs in the background.</li>
                 <li><strong>Microphone (<code>android.permission.RECORD_AUDIO</code>):</strong> Used solely to capture your voice with synchronized audio during an active recording. Never records in the background.</li>
                 <li><strong>Screen Wake Lock (<code>android.permission.WAKE_LOCK</code>):</strong> Keeps your display on while you are actively speaking or rehearsing your script.</li>
-                <li><strong>Media Storage (<code>READ_MEDIA_VIDEO</code>):</strong> Allows you to browse, play back, review, and export your completed video takes to your local gallery album.</li>
+                <li><strong>Local Scoped Storage (Zero Broad Media Permissions):</strong> Saves completed video takes directly into your device photo gallery (MediaStore) using Android Scoped Storage. CueCam requests zero broad media permissions (<code>READ_MEDIA_VIDEO</code> / <code>READ_MEDIA_IMAGES</code>) and cannot read your personal photos or videos.</li>
             </ul>
 
             <h2>4. Third-Party Sharing</h2>
