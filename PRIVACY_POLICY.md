@@ -45,8 +45,9 @@ CueCam requests only the minimum device permissions essential to perform core on
 3. **Keep Screen Awake (`android.permission.WAKE_LOCK`):**
    - **Purpose:** Prevents your device screen from dimming or sleeping while you are actively reading a script in rehearsal or recording a take.
 
-4. **Media Storage (`READ_MEDIA_VIDEO` / Storage permissions):**
-   - **Purpose:** Enables saving your completed video takes to your device's gallery or sharing them via the Android system share sheet.
+4. **Local Scoped Storage (No Broad Media Permissions):**
+   - **Purpose:** Enables saving your completed video takes directly into your device's photo gallery (MediaStore) using modern Android Scoped Storage.
+   - **Scope:** CueCam does **not** request or use broad media permissions (`READ_MEDIA_VIDEO` or `READ_MEDIA_IMAGES`). The app cannot view, access, or read any existing personal photos, videos, or external media on your device. CueCam only interacts with the video files it records itself.
 
 ---
 
